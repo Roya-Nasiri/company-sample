@@ -6,7 +6,7 @@ I'm just getting started on my web development journey and excited to learn more
 .
 .
 
-![alt text](https://raw.githubusercontent.com/username/repo/main/images/filename.png)
+![alt text](https://github.com/Roya-Nasiri/company-sample/blob/main/3f370545-f3b2-44a4-8c47-b704855c3021.jpg)
 - [Demo Project](https://roya-nasiri.github.io/company-sample/)
 
 😊 Developed by roya nasiri
