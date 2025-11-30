@@ -362,6 +362,92 @@ body {
 }
 
 /* ////////end cover////// */
+.mid {
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid black; */
+    margin-bottom: 200px;
+    display: flex;
+
+    >div {
+        width: 50%;
+        height: 100%;
+        /* border: 1px solid red; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &:first-of-type {
+
+            >img {
+                width: 600px;
+                height: 450px;
+                border-radius: 35% 0 0 0;
+                display: flex;
+
+            }
+
+        }
+
+        &:last-of-type {
+
+            display: flex;
+
+            flex-direction: column;
+
+            padding-right: 20%;
+
+
+            * {
+                padding-top: 30px;
+                font-family: "Figtree", sans-serif;
+
+            }
+
+            >img {
+                width: 180px;
+                height: 180px;
+                margin-right: 70%;
+            }
+
+            >h4 {
+                width: 80%;
+                margin-right: 20%;
+                font-size: 28px;
+                font-family: "Playfair Display", serif;
+
+            }
+
+            >p {
+                line-height: 2;
+                width: 100%;
+            }
+
+
+            >h5 {
+               
+                text-align: center;
+                font-weight: normal;
+                width: 200px;
+                padding: 15px 0;
+                margin-right: 65%;
+                margin-top: 20px;
+                font-size: 22px;
+                background-color: rgba(239, 230, 223);
+                transition: .4s;
+                box-shadow: 3px 3px rgba(224, 118, 47, 0.614);
+
+                &:hover {
+                    background-color: rgba(224, 118, 47, 0.928);
+                    box-shadow: 3px 3px rgba(239, 230, 223);
+
+                }
+
+            }
+        }
+    }
+}
+
 .card {
     width: 100%;
     height: 650px;
@@ -389,7 +475,6 @@ body {
             flex-wrap: wrap;
             flex-direction: column;
             justify-content: space-between;
-            /* margin: 20px; */
 
             >img {
                 height: 400px;
@@ -421,14 +506,16 @@ body {
             >span {
                 display: flex;
                 position: relative;
-
+                /* border: 1px solid rebeccapurple; */
+                width: 180px;
                 &:hover {
                     >a {
-                        border: none;
-                        background-color: rgba(224, 118, 47, 0.614);
+                        background-color: rgba(224, 118, 47, 0.813);
                         color: white;
                         padding-bottom: 30px;
+                        box-shadow: 3px 3px rgb(239, 230, 223);
                     }
+
 
                     >h5 {
                         margin-top: -23px;
@@ -442,14 +529,14 @@ body {
                 }
 
                 >a {
-
+                    
                     width: 180px;
                     height: 50px;
                     display: flex;
                     justify-content: center;
                     align-items: center;
                     font-weight: bold;
-                    border: 1px solid rgba(224, 118, 47, 0.614);
+                    box-shadow: 3px 3px rgba(224, 118, 47, 0.873);
                     background-color: rgb(239, 230, 223);
                     margin-bottom: 40px;
                     transition: .4s;
@@ -523,13 +610,15 @@ body {
             >span {
                 display: flex;
                 position: relative;
+                width: 180px;
 
                 &:hover {
                     >a {
                         border: none;
-                        background-color: rgba(224, 118, 47, 0.614);
+                        background-color: rgba(224, 118, 47, 0.881);
                         color: white;
                         padding-bottom: 30px;
+                        box-shadow: 3px 3px rgb(239, 230, 223);
                     }
 
                     >h5 {
@@ -551,7 +640,7 @@ body {
                     justify-content: center;
                     align-items: center;
                     font-weight: bold;
-                    border: 1px solid rgba(224, 118, 47, 0.614);
+                    box-shadow: 3px 3px rgba(224, 118, 47, 0.886);
                     background-color: rgb(239, 230, 223);
                     margin-bottom: 40px;
                     transition: .4s;
@@ -602,7 +691,8 @@ body {
         flex-direction: column;
 
         &:first-of-type {
-          padding-left: 200px;
+            padding-left: 200px;
+
             >h5 {
                 font-size: 24px;
             }
@@ -636,7 +726,7 @@ body {
 
         &:last-of-type {
             /* border: 1px solid rgb(187, 17, 17); */
-            padding-right: 300px;
+            padding-right: 400px;
             padding-top: 30px;
 
             >.log {
